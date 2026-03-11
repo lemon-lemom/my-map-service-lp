@@ -136,3 +136,18 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.button:active {
+    transform: translateY(0);
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 24px;
+}

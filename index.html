@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <head>
     <meta charset="UTF-8" />
@@ -21,6 +23,7 @@
             <a href="#future" class="button button-secondary">今後の予定</a>
         </div>
     </div>
+
 
     <main>
         <section class="section">
@@ -60,6 +63,14 @@
                     次のステップでは、実際に地図を表示し、ピンを置いて、
                     場所の情報を表示できるMVPを目指します。
                 </p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2>Map Preview</h2>
+
+                <div id="map"></div>
+
             </div>
         </section>
     </main>
